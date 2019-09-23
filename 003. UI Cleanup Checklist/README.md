@@ -5,9 +5,9 @@
 ### 2. On runtime level, make sure there's no errors on every page
 <!-- TOC -->
 ## Eslint CheckList - Code level
-- [1.initial action](#1)
-- [2.common rules](#2)
-  - [2.1 remove unused imports](#2.1)
+- [1.initial action](#1-initial-action)
+- [2.common rules](#2-common-rules)
+  - [2.1 remove unused imports](#2.1-remove-unused-imports)
 <!-- /TOC -->
 
 # 1. Initial Action
