@@ -9,6 +9,8 @@
 - [2.common rules](#2-common-rules)
   - [2.1 no-unused-vars](#21-no-unused-vars)
   - [2.2 object-shorthand](#22-object-shorthand)
+  - [2.3 no-string-refs](#23-no-string-refs) 
+  - [2.4 import/named](#24-import-named)
 <!-- /TOC -->
 
 # 1. Initial Action
@@ -28,3 +30,13 @@
 * ![object-shorthand](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/object-shorthand.png)
 * ACTION: right click on this rule, then click 'Fix all auto-fixable problems'
 * ![object-shorthand-action](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/object-shorthand-action.png)
+## 2.3 no-string-refs
+* String refs are deprecated. Apply callback pattern instead.
+* ![no-string-refs](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/no-string-refs.png)
+* ACTION: refactor codes as below.
+* ![no-string-refs](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/no-string-refsd-action.png)
+## 2.4 import-named
+* The reason for this problem involved is because this import codes are babelified. Hence Eslint cannot find the reference.
+* ![import-named](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/import-named.png)
+* ACTION: disable this rule in the file.
+* ![import-named](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/import-named-action.png)
