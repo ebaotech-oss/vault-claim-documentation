@@ -34,9 +34,9 @@
 * String refs are deprecated. Apply callback pattern instead.
 * ![no-string-refs](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/no-string-refs.png)
 * ACTION: refactor codes as below.
-* ![no-string-refs](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/no-string-refsd-action.png)
+* ![no-string-refs-action](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/no-string-refs-action.png)
 ## 2.4 import-named
 * The reason for this problem involved is because this import codes are babelified. Hence Eslint cannot find the reference.
 * ![import-named](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/import-named.png)
 * ACTION: disable this rule in the file.
-* ![import-named](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/import-named-action.png)
+* ![import-named-action](https://github.com/ebaotech-oss/vault-claim-documentation/blob/master/003.%20UI%20Cleanup%20Checklist/Images/import_named-action.png)
